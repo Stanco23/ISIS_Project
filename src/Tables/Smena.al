@@ -11,7 +11,7 @@ table 50104 Smena
             Caption = 'SmenaID';
         }
 
-        field(2; Smena; Integer)
+        field(2; Smena; enum Smena)
         {
             DataClassification = CustomerContent;
             Caption = 'Smena';

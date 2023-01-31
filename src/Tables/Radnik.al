@@ -58,7 +58,7 @@ table 50106 Radnik
         {
             DataClassification = CustomerContent;
             Caption = 'GradID';
-
+            TableRelation = Grad;
         }
     }
 

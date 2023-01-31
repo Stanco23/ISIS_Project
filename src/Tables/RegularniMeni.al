@@ -11,7 +11,7 @@ table 50110 Regularni_Meni
             Caption = 'RegularniID';
 
         }
-        //Can you give me a snippet of code as an example of how to use time datatype in al programming lenguage
+
 
 
         field(2; VremePosluzenja; DateTime)
