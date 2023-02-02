@@ -15,7 +15,23 @@ page 50111 "Radnik Card"
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the RadnikID field.';
+                    ShowMandatory = true;
                 }
+
+                field(Plata; Rec.Plata)
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Plata field.';
+                }
+                field(PrekovremenoSati; Rec.PrekovremenoSati)
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Prekovremeno Sati field.';
+                }
+
+            }
+            group("Lične informacije")
+            {
                 field(Ime; Rec.Ime)
                 {
                     ApplicationArea = All;
@@ -29,17 +45,7 @@ page 50111 "Radnik Card"
                 field(DatumRodjenja; Rec.DatumRodjenja)
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the DatumRodjenja field.';
-                }
-                field(Plata; Rec.Plata)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Plata field.';
-                }
-                field(PrekovremenoSati; Rec.PrekovremenoSati)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the PrekovremenoSati field.';
+                    ToolTip = 'Specifies the value of the Datum Rodjenja field.';
                 }
                 field(Telefon; Rec.Telefon)
                 {

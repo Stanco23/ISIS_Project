@@ -12,10 +12,16 @@ page 50101 "Jelo Card"
         {
             group(General)
             {
+                field(JeloID; Rec.JeloID)
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the JeloID field.';
+                }
                 field(Naziv; Rec.Naziv)
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Naziv field.';
+                    ShowMandatory = true;
                 }
                 field(Opis; Rec.Opis)
                 {
@@ -26,6 +32,7 @@ page 50101 "Jelo Card"
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Cena field.';
+                    ShowMandatory = true;
                 }
                 field(RegularniID; Rec.RegularniID)
                 {
@@ -41,21 +48,7 @@ page 50101 "Jelo Card"
         }
     }
 
-    actions
-    {
-        area(Processing)
-        {
-            action(ActionName)
-            {
-                ApplicationArea = All;
 
-                trigger OnAction()
-                begin
-
-                end;
-            }
-        }
-    }
 
     var
         myInt: Integer;

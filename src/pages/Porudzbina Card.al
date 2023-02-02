@@ -32,6 +32,14 @@ page 50108 "Porudzbina Card"
                     ToolTip = 'Specifies the value of the RadnikID field.';
                 }
             }
+            group(Porudzbina)
+            {
+                part("Stavke Porudzbine list part"; "Stavke_porudzbine List Page")
+                {
+                    ApplicationArea = all;
+                    SubPageLink = PorudzbinaID = field(PorudzbinaID);
+                }
+            }
         }
     }
 }

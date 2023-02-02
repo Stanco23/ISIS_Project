@@ -38,7 +38,13 @@ page 50119 "Stavke porudzbine List"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Suma field.';
                 }
+                field(Cena_jela; Rec.Cena_jela)
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Suma field.';
+                }
             }
         }
     }
+
 }

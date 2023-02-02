@@ -24,7 +24,7 @@ page 50116 "Smena Radnik Card"
                 field(DatumdodeleSmene; Rec.DatumdodeleSmene)
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the DatumdodeleSmene field.';
+                    ToolTip = 'Specifies the value of the Datum dodele Smene field.';
                 }
             }
         }

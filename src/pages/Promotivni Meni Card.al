@@ -24,12 +24,12 @@ page 50110 "Promotivni Meni Card"
                 field(DatumPocetka; Rec.DatumPocetka)
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the DatumPocetka field.';
+                    ToolTip = 'Specifies the value of the Datum Pocetka field.';
                 }
                 field(DatumKraja; Rec.DatumKraja)
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the DatumKraja field.';
+                    ToolTip = 'Specifies the value of the Datum Kraja field.';
                 }
             }
         }

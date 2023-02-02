@@ -21,7 +21,7 @@ page 50113 "Regularni_Meni List"
                 field(VremePosluzenja; Rec.VremePosluzenja)
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the VremePosluzenja field.';
+                    ToolTip = 'Specifies the value of the Vreme Posluzenja field.';
                 }
             }
         }

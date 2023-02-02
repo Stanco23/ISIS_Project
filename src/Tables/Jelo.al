@@ -26,6 +26,7 @@ table 50109 Jelo
         {
             DataClassification = CustomerContent;
             Caption = 'Cena';
+
         }
         field(5; "RegularniID"; code[15])
         {

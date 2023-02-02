@@ -36,7 +36,18 @@ page 50118 "Stavke porudzbine Card"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Suma field.';
                 }
+
             }
+
+
         }
+
+        area(FactBoxes)
+        {
+
+        }
+
     }
+
+
 }

@@ -34,6 +34,30 @@ page 50107 "Porudzbina List"
                     ToolTip = 'Specifies the value of the RadnikID field.';
                 }
             }
+
         }
+
+    }
+    actions
+    {
+        area(Processing)
+        {
+            action(ActionName)
+            {
+                ApplicationArea = All;
+                ToolTip = 'Broji sve porudzbina';
+                Caption = 'Ukupan broj porudzbina';
+                trigger OnAction()
+                var
+                    FFMgt: Codeunit "FastFoodMgt";
+                begin
+                    FFMgt.PrebrojPorudzbine();
+                end;
+            }
+
+
+        }
+
+
     }
 }

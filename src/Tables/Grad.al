@@ -20,13 +20,13 @@ table 50108 Grad
         field(4; Postanskibroj; Integer)
         {
             DataClassification = CustomerContent;
-            Caption = 'Postanskibroj ';
+            Caption = 'Postanski broj ';
         }
 
         field(5; BrojStanovnika; Integer)
         {
             DataClassification = CustomerContent;
-            Caption = 'BrojStanovnika ';
+            Caption = 'Broj stanovnika ';
         }
 
     }

@@ -31,7 +31,7 @@ page 50109 "Radnik List"
                 field(DatumRodjenja; Rec.DatumRodjenja)
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the DatumRodjenja field.';
+                    ToolTip = 'Specifies the value of the Datum Rodjenja field.';
                 }
                 field(Plata; Rec.Plata)
                 {
@@ -41,7 +41,7 @@ page 50109 "Radnik List"
                 field(PrekovremenoSati; Rec.PrekovremenoSati)
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the PrekovremenoSati field.';
+                    ToolTip = 'Specifies the value of the Prekovremeno Sati field.';
                 }
                 field(Telefon; Rec.Telefon)
                 {

@@ -26,6 +26,7 @@ table 50113 Stavke_porudzbine
             DataClassification = CustomerContent;
             Caption = 'JeloID';
             TableRelation = Jelo;
+
         }
         field(4; Kolicina; Integer)
         {
@@ -36,9 +37,19 @@ table 50113 Stavke_porudzbine
         field(5; Suma; Integer)
         {
             DataClassification = CustomerContent;
+
             Caption = 'Suma';
 
         }
+        field(6; "Cena_jela"; Integer)
+        {
+            FieldClass = FlowField;
+            Caption = 'Cena jela';
+            CalcFormula = lookup(Jelo.Cena where(JeloID = field(JeloID)));
+
+
+        }
+
     }
 
     keys

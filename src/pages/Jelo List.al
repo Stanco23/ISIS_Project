@@ -14,6 +14,11 @@ page 50100 "Jelo Lista"
         {
             repeater(GroupName)
             {
+                field(JeloID; Rec.JeloID)
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the JeloID field.';
+                }
                 field(Naziv; Rec.Naziv)
                 {
                     ApplicationArea = All;
@@ -39,6 +44,7 @@ page 50100 "Jelo Lista"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the PromotivniID field.';
                 }
+
             }
         }
         area(Factboxes)

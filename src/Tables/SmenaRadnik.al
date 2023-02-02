@@ -22,7 +22,7 @@ table 50105 SmenaRadnik
         field(3; "DatumdodeleSmene"; Date)
         {
             DataClassification = CustomerContent;
-            Caption = 'DatumdodeleSmene';
+            Caption = 'Datum dodele Smene';
 
         }
 

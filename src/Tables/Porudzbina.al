@@ -30,6 +30,7 @@ table 50112 Porudzbina
         {
             DataClassification = CustomerContent;
             Caption = 'RadnikID';
+            TableRelation = Radnik;
 
         }
     }

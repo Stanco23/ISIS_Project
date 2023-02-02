@@ -15,11 +15,13 @@ page 50103 "Grad Card"
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the GradID field.';
+                    ShowMandatory = true;
                 }
                 field(Grad; Rec.Grad)
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Grad field.';
+                    ShowMandatory = true;
                 }
                 field(Postanskibroj; Rec.Postanskibroj)
                 {

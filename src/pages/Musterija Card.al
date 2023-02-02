@@ -15,11 +15,13 @@ page 50104 "Musterija Card"
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the MusterijaID field.';
+                    ShowMandatory = true;
                 }
                 field(Ime; Rec.Ime)
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Ime field.';
+                    ShowMandatory = true;
                 }
                 field(Prezime; Rec.Prezime)
                 {
@@ -41,6 +43,15 @@ page 50104 "Musterija Card"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Telefon field.';
                 }
+            }
+        }
+        area(FactBoxes)
+        {
+            part(GradCardPart; "Grad Card Part")
+            {
+                Caption = 'Grad part';
+                ApplicationArea = all;
+                SubPageLink = "GradID" = field(GradID);
             }
         }
     }

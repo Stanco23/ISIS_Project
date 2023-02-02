@@ -26,7 +26,7 @@ page 50117 "SmenaRadnik List"
                 field(DatumdodeleSmene; Rec.DatumdodeleSmene)
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the DatumdodeleSmene field.';
+                    ToolTip = 'Specifies the value of the Datum dodele Smene field.';
                 }
             }
         }
